@@ -1,0 +1,29 @@
+{
+    "name": "zfbrasil/form",
+    "require": {
+        "zendframework/zend-filter": "~2.3@dev",
+        "zendframework/zend-validator": "~2.3@dev",
+        "zendframework/zend-stdlib": "~2.3@dev"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~4.5@dev"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Fabio Carneiro",
+            "email": "fahecs@gnail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {    
+            "Form\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {    
+            "FormTest\\": "tests/"
+        }
+    }
+}
